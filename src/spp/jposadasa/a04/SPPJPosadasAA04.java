@@ -31,11 +31,11 @@ public class SPPJPosadasAA04 {
                 
             case 2:
                 System.out.println("Bienvenido a la calculadora de Cosenos");
-                res = Math.sin(decAng());
+                res = Math.cos(decAng());
                 System.out.println("Seno: " + res);
             case 3:
                 System.out.println("Bienvenido a la Calculadora de Tangentes");
-                res = Math.sin(decAng());
+                res = Math.tan(decAng());
                 System.out.println("Seno: " + res);
         }
     }
