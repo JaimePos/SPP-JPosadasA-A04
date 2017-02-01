@@ -20,6 +20,7 @@ public class SPPJPosadasAA04 {
         System.out.println("1. Seno");
         System.out.println("2. Coseno");
         System.out.println("3. Tangente");
+        System.out.println("4. Salir");
         
         dec = kb.nextInt();
         
@@ -37,6 +38,8 @@ public class SPPJPosadasAA04 {
                 System.out.println("Bienvenido a la Calculadora de Tangentes");
                 res = Math.tan(decAng());
                 System.out.println("Tangente: " + res);
+            case 4:
+                System.out.println("Saliendo del programa");
         }
     }
     
